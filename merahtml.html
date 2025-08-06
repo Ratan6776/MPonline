@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OM Kali MP Online</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #606d77, #ff9dd6);
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      background: #ff0000;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    header img {
+      height: 50px;
+    }
+    .phone {
+      font-weight: bold;
+      color: #ffffff;
+    }
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 24px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 15px;
+      transition: transform 0.3s;
+      perspective: 1000px;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      color: #9c9c9c;
+    }
+    .documents {
+      display: none;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .card.active .documents {
+      display: block;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="mp online.png" alt="MP Online Logo">
+    <div class="phone">📞 7415431738</div>
+  </header>
+
+  <h1>OM Kali MP Online सेवाएं</h1>
+
+  <div class="services">
+    <div class="card">
+      <h3>जाति प्रमाण पत्र</h3>
+      <div class="documents">
+        <ul>
+          <li>आवेदक का आधार कार्ड</li>
+          <li>समग्र ID</li>
+          <li>राशन कार्ड </li>
+          <li> angsuchi </li>
+           <li>sarpanch ka signeshar </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>निवास प्रमाण पत्र</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>बिजली बिल / पानी बिल</li>
+          <li>राशन कार्ड</li>
+          <li>समग्र ID</li>
+           <li>photo</li>
+            <li>phone number</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>संबल कार्ड</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>समग्र परिवार ID</li>
+          <li>राशन कार्ड</li>
+          <li>मोबाइल नंबर</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>आधार KYC</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>मोबाइल नंबर (आधार से लिंक)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>समग्र KYC</h3>
+      <div class="documents">
+        <ul>
+          <li>समग्र परिवार ID</li>
+          <li>सभी सदस्यों का आधार कार्ड</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>PAN कार्ड</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>मोबाइल नंबर</li>
+          <li>ईमेल ID</li>
+           <li>signechar</li>
+            <li>photo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>ABHA कार्ड</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>मोबाइल नंबर</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>आयुष्मान कार्ड</h3>
+      <div class="documents">
+        <ul>
+          <li>राशन कार्ड</li>
+          <li>आधार कार्ड</li>
+          <li>समग्र ID</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>LIC / 3rd बीमा</h3>
+      <div class="documents">
+        <ul>
+          <li>पहचान पत्र</li>
+          <li>बैंक पासबुक</li>
+          <li>नॉमिनी जानकारी</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>वोटर ID</h3>
+      <div class="documents">
+        <ul>
+          <li>आधार कार्ड</li>
+          <li>पते का प्रमाण</li>
+          <li>फोटो</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Toggle documents on card click
+    document.querySelectorAll('.card h3').forEach(h3 => {
+      h3.addEventListener('click', () => {
+        const card = h3.parentElement;
+        card.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
